@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+
+    <EditText
+        android:id="@+id/name_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+
+        android:inputType="textCapSentences"
+        android:padding="15dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/name_face_purple"
+        android:drawableTint="@color/purple_200"/>
+
+
+    <Button
+        android:id="@+id/join_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join Room!"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/create_room_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Room!"/>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.JoinActivity"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+
+    <EditText
+        android:id="@+id/code_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Code"
+        android:drawableStart="@drawable/code_icon"
+        android:padding="15dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/code_icon"
+        android:drawableTint="@color/purple_200"/>
+
+    <Button
+        android:id="@+id/join_room_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join Room!"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
